@@ -27,3 +27,5 @@ var linkListItem = document.createElement('li');
 link.appendChild(linkListItem);
 linkListItem.appendChild(list);
 
+var linkText = document.createTextNode('This is the my link');
+
