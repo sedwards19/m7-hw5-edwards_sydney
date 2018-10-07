@@ -9,3 +9,5 @@ main.appendChild(header);
 var list = document.createElement('ul');
 main.appendChild(list);
 
+var listElement = document.createElement('li');
+list.appendChild(listElement);
