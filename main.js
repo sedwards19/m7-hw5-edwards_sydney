@@ -11,3 +11,8 @@ main.appendChild(list);
 
 var listElement = document.createElement('li');
 list.appendChild(listElement);
+
+var headerText = document.createTextNode('This is the header text!');
+
+var listItemText = document.createTextNode('This is the liste item');
+
