@@ -25,7 +25,10 @@ main.classList.add('text-center');
 var link = document.createElement('a');
 var linkListItem = document.createElement('li');
 link.appendChild(linkListItem);
-linkListItem.appendChild(list);
+list.appendChild(linkListItem);
+//linkListItem.appendChild(list);
 
 var linkText = document.createTextNode('This is the my link');
+link.appendChild(linkText);
+
 
