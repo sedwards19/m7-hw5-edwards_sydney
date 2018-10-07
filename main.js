@@ -35,5 +35,6 @@ link.href = 'https://www.google.com';
 
 var notLinkListItem = linkListItem.previousElementSibling;
 
+notLinkListItem.classList.add('orange');
 
 
