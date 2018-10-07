@@ -18,3 +18,5 @@ header.appendChild(headerText);
 var listItemText = document.createTextNode('This is the list item');
 listElement.appendChild(listItemText);
 
+header.classList.add('blue');
+
