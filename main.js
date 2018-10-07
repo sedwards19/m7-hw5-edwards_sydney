@@ -33,4 +33,7 @@ link.appendChild(linkText);
 
 link.href = 'https://www.google.com';
 
+var notLinkListItem = linkListItem.previousElementSibling;
+
+
 
